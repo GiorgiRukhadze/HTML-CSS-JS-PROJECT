@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="Container">
+      <div class="header">
+        <div class="dropdown">
+          <button
+            class="Button"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            data-bs-auto-close="outside"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              fill="currentColor"
+              class="bi bi-person-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+              />
+            </svg>
+            ACCOUNT
+          </button>
+          <form class="dropdown-menu p-4">
+            <div class="mb-3">
+              <label for="exampleDropdownFormEmail2" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleDropdownFormEmail2"
+                placeholder="email@example.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleDropdownFormPassword2" class="form-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleDropdownFormPassword2"
+                placeholder="Password"
+              />
+            </div>
+            <div class="mb-3">
+              <div class="form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="dropdownCheck2"
+                />
+                <label class="form-check-label" for="dropdownCheck2">
+                  Remember me
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
+        </div>
+      </div>
+      <div class="search">
+        <h1 class="wknd">WKND</h1>
+
+        <p class="search3" class="sehover">ADVENTURES</p>
+        <p class="search4" class="sehover">FAQ</p>
+        <p class="search4" class="sehover">About us</p>
+
+        <div class="search-box">
+          <button class="btn-search">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-search"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+              />
+            </svg>
+          </button>
+          <input type="text" class="input-search" placeholder="Search" />
+        </div>
+      </div>
+      <div class="image1">
+        <div class="adventures">
+          <h2 class="h2">WKND Adventures</h2>
+          <p class="advp">
+            Join us on one of our next adventures. Browse our list of curated
+            experiences and sign up for one when you're ready to explore with
+            us.
+          </p>
+          <div>
+            <button class="advp2">
+              <a class="iddec" href="#c10">View adventures</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      <div class="bigslider">
+        <div class="slidshowright">
+          <div class="slideshow-container">
+            <div class="mySlides">
+              <div class="textleft">
+                <h3 class="article">Last Article</h3>
+                <div class="bord"></div>
+                <p class="article2">
+                  Camping in Western<br />
+                  Australia
+                </p>
+                <p class="article3">
+                  A vibrant red, dusty highway stretches out before us into what
+                  seems like infinity, at the far reach of our sights it
+                  distorts and shimmers from the afternoon heat, fading into the
+                  blue of the horizon.
+                </p>
+                <a
+                  class="wikilink"
+                  href="https://www.britannica.com/place/Australia"
+                  target="_blank"
+                  >Read More</a
+                >
+              </div>
+              <img
+                src="./img/sliderphoto1.png"
+                style="width: 780px; height: 550px"
+              />
+            </div>
+
+            <div class="mySlides">
+              <div class="textleft">
+                <h3 class="article">Last Article</h3>
+                <div class="bord"></div>
+                <p class="article2">Travel to Paris</p>
+                <p class="article3">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Soluta eos necessitatibus rerum vel voluptates odio quod ipsum
+                  vero! Consequuntur dolorum laudantium quod commodi atque
+                  aspernatur!
+                </p>
+                <a
+                  class="wikilink"
+                  href="https://www.britannica.com/place/Paris"
+                  target="_blank"
+                  >Read More</a
+                >
+              </div>
+              <img
+                src="./img/sliderphoto2.jpg"
+                style="width: 780px; height: 550px"
+              />
+            </div>
+
+            <div class="mySlides">
+              <div class="textleft">
+                <h3 class="article">Last Article</h3>
+                <div class="bord"></div>
+                <p class="article2">Travel to Italy</p>
+                <p class="article3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Aliquid vero ullam officia sint voluptas libero eum reiciendis
+                  hic minus, consequuntur placeat, nostrum vitae dicta
+                  asperiores accusamus, nulla non? Non amet illum odio corporis
+                  eligendi fugit?
+                </p>
+                <a
+                  class="wikilink"
+                  href="https://www.britannica.com/place/Italy"
+                  target="_blank"
+                  >Read More</a
+                >
+              </div>
+              <img
+                src="./img/sliderphoto3.jpg"
+                style="width: 780px; height: 550px"
+              />
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+          </div>
+          <br />
+        </div>
+      </div>
+      <div class="article4">
+        <p class="miniartc">Recent Articles</p>
+        <div class="bord2"></div>
+      </div>
+      <div class="fetchcont"></div>
+      <div class="line"></div>
+      <div class="article5">
+        <p class="miniartc">Next Adventures</p>
+        <div class="bord2"></div>
+      </div>
+      <div id="c10" class="image2">
+        <div class="adventures">
+          <h2 class="h2">Climbing New Zealand</h2>
+          <p class="advp">
+            Let us help you make your New Zealand climbing vacation a memory you
+            will cherish forever! Come join us for a guided rock climbing
+            adventure in the mountains that trained Sir Edmund Hilary.
+          </p>
+          <div>
+            <button class="advp2">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="where">
+        <h5 class="whereto">Where do you want to go?</h5>
+      </div>
+      <div class="backfotos">
+        <div class="flexfoto">
+          <img src="./img/foto1.png" />
+          <h5>WHISTLER MOUNTAIN BIKING</h5>
+          <p>CYCLING</p>
+        </div>
+
+        <div class="flexfoto">
+          <img src="./img/foto2.png" />
+          <h5>SURF CAMP IN COSTA RICA</h5>
+          <p>Surfing</p>
+        </div>
+        <div class="flexfoto">
+          <img src="./img/foto3.png" />
+          <h5>SKI TOURING MONT BLANC</h5>
+          <p>SKIING</p>
+        </div>
+
+        <div class="flexfoto">
+          <img src="./img/foto4.png" />
+          <h5>RIVERSIDE CAMPING</h5>
+          <p>CAMPING</p>
+        </div>
+      </div>
+      <div class="buttoon">
+        <button>EXPLORE ALL</button>
+      </div>
+      <!-- section 2 start -->
+
+      <section class="sec2">
+        <div class="section2">
+          <div class="foto">
+            <img
+              src="./img/WKND-footer img.png"
+              width="150%"
+              height="120%"
+              alt=""
+            />
+          </div>
+          <div class="text2">
+            <p class="wantwknd">Want WKND in your inbox?</p>
+
+            <p class="textwknd">
+              Be the first to know about new trips, fresh gear, and co-op
+              offers. Were a good penpal. Promise.
+            </p>
+            <input
+              class="emails"
+              type="email"
+              placeholder="Your Email Adress"
+            /><button id="sing">sing up</button>
+          </div>
+        </div>
+      </section>
+      <footer class="fotiko">
+        <div class="footeris">
+          <div class="wk">
+            <h3>WKND</h3>
+          </div>
+          <div class="chamonatvali">
+            <ul class="ulia">
+              <li>MAGAZINE</li>
+              <li>ADVENTURES</li>
+              <li>FAQ</li>
+              <li>About us</li>
+            </ul>
+          </div>
+          <div class="photoebiao">
+            <a href="https://www.instagram.com/"
+              ><img class="fot" src="./img/WKND-button-ins.png"
+            /></a>
+            <a href="https://www.facebook.com/"
+              ><img class="fot" src="./img/WKND-button-fb (1).png"
+            /></a>
+            <a href="https://twitter.com/"
+              ><img class="fot" src="./img/WKND-button-twit(2).png"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./fetch.js"></script>
+  </body>
+</html>
