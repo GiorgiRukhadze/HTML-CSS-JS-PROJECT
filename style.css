@@ -349,7 +349,7 @@
   color: gray;
 }
 
-@keyframes wipe-enter {
+/* @keyframes wipe-enter {
   0% {
     transform: scale(0, 0.5);
   }
@@ -363,7 +363,7 @@
     animation-name: wipe-enter;
     animation-duration: 2s;
   }
-}
+} */
 
 .line {
   margin-left: 100px;

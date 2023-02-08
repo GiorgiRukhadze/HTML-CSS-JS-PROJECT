@@ -33,3 +33,19 @@ let si = document.querySelector("#sing");
 si.addEventListener("click", function () {
   alert("თქვენ შეხვედით აქქაუნთზე");
 });
+
+window.onload = function () {
+  let effect = document.querySelector(".fetchcont");
+  window.addEventListener("scroll", scrollEffect);
+  function scrollEffect() {
+    if (window.scrollY >= 820) {
+      effect.style.opacity = "1";
+      effect.style.transform = "translateX(0px)";
+      effect.style.transition = "2s ease-in-out";
+    } else {
+      effect.style.opacity = "0";
+      effect.style.transform = "translateX(-50px)";
+    }
+  }
+  scrollEffect();
+};
